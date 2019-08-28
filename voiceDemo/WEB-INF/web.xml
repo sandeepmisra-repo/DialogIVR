@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2018 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>allow-html-mode</param-name>
+        <param-value>false</param-value>
+        <description>Allows html mode in speech applications.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="CheckAdminVariableInfo-servlet">
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtimecommon.CheckAdminVariableInfo</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>WelcomeAnnounce</servlet-name>
+        <servlet-class>flow.WelcomeAnnounce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_8">
+        <servlet-name>Record</servlet-name>
+        <servlet-class>flow.Record</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_14">
+        <servlet-name>RecordDataAssign</servlet-name>
+        <servlet-class>flow.RecordDataAssign</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_20">
+        <servlet-name>GoogleASR</servlet-name>
+        <servlet-class>flow.GoogleASR</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_24">
+        <servlet-name>CheckASRError</servlet-name>
+        <servlet-class>flow.CheckASRError</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_32">
+        <servlet-name>ErrorGoogleASRAnnounce</servlet-name>
+        <servlet-class>flow.ErrorGoogleASRAnnounce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_39">
+        <servlet-name>NLPWS</servlet-name>
+        <servlet-class>flow.NLPWS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_44">
+        <servlet-name>CheckNLPWSError</servlet-name>
+        <servlet-class>flow.CheckNLPWSError</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_65">
+        <servlet-name>SetANNounceTTS</servlet-name>
+        <servlet-class>flow.SetANNounceTTS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_53">
+        <servlet-name>ErrorNLPWS</servlet-name>
+        <servlet-class>flow.ErrorNLPWS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_60">
+        <servlet-name>GoogleTTS</servlet-name>
+        <servlet-class>flow.GoogleTTS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_73">
+        <servlet-name>PlayTTSAnnounce</servlet-name>
+        <servlet-class>flow.PlayTTSAnnounce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_81">
+        <servlet-name>ExitAnnounce</servlet-name>
+        <servlet-class>flow.ExitAnnounce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_86">
+        <servlet-name>Exit</servlet-name>
+        <servlet-class>flow.Exit</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_106">
+        <servlet-name>ANNOUNCEGoogleTTS</servlet-name>
+        <servlet-class>flow.ANNOUNCEGoogleTTS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_110">
+        <servlet-name>TTSErrorCheck</servlet-name>
+        <servlet-class>flow.TTSErrorCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_121">
+        <servlet-name>DeleteFILE</servlet-name>
+        <servlet-class>flow.DeleteFILE</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_136">
+        <servlet-name>LogFileIn</servlet-name>
+        <servlet-class>flow.LogFileIn</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_141">
+        <servlet-name>LogFileOut</servlet-name>
+        <servlet-class>flow.LogFileOut</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_196">
+        <servlet-name>PlayAgain</servlet-name>
+        <servlet-class>flow.PlayAgain</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="CheckAdminVariableInfo-servletmapping">
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+        <url-pattern>/CheckAdminVariableInfo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>WelcomeAnnounce</servlet-name>
+        <url-pattern>/WelcomeAnnounce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_8">
+        <servlet-name>Record</servlet-name>
+        <url-pattern>/Record</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_14">
+        <servlet-name>RecordDataAssign</servlet-name>
+        <url-pattern>/RecordDataAssign</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_20">
+        <servlet-name>GoogleASR</servlet-name>
+        <url-pattern>/GoogleASR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_24">
+        <servlet-name>CheckASRError</servlet-name>
+        <url-pattern>/CheckASRError</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_32">
+        <servlet-name>ErrorGoogleASRAnnounce</servlet-name>
+        <url-pattern>/ErrorGoogleASRAnnounce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_39">
+        <servlet-name>NLPWS</servlet-name>
+        <url-pattern>/NLPWS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_44">
+        <servlet-name>CheckNLPWSError</servlet-name>
+        <url-pattern>/CheckNLPWSError</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_65">
+        <servlet-name>SetANNounceTTS</servlet-name>
+        <url-pattern>/SetANNounceTTS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_53">
+        <servlet-name>ErrorNLPWS</servlet-name>
+        <url-pattern>/ErrorNLPWS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_60">
+        <servlet-name>GoogleTTS</servlet-name>
+        <url-pattern>/GoogleTTS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_73">
+        <servlet-name>PlayTTSAnnounce</servlet-name>
+        <url-pattern>/PlayTTSAnnounce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_81">
+        <servlet-name>ExitAnnounce</servlet-name>
+        <url-pattern>/ExitAnnounce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_86">
+        <servlet-name>Exit</servlet-name>
+        <url-pattern>/Exit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_106">
+        <servlet-name>ANNOUNCEGoogleTTS</servlet-name>
+        <url-pattern>/ANNOUNCEGoogleTTS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_110">
+        <servlet-name>TTSErrorCheck</servlet-name>
+        <url-pattern>/TTSErrorCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_121">
+        <servlet-name>DeleteFILE</servlet-name>
+        <url-pattern>/DeleteFILE</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_136">
+        <servlet-name>LogFileIn</servlet-name>
+        <url-pattern>/LogFileIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_141">
+        <servlet-name>LogFileOut</servlet-name>
+        <url-pattern>/LogFileOut</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_196">
+        <servlet-name>PlayAgain</servlet-name>
+        <url-pattern>/PlayAgain</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

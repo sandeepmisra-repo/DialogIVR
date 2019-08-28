@@ -1,0 +1,238 @@
+11/02/2019 17:37:04:544  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : SCESession bound to HttpSession 8F51CE16F8E0A08806B9BB6B9FA4F606
+11/02/2019 17:37:04:554  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Browser Version 2.1.4, terminationURL enabled : true
+11/02/2019 17:37:04:710  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : Start
+11/02/2019 17:37:04:835  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : ** Pushed Stack Frame [/voiceDemo]
+11/02/2019 17:37:04:856 DEBUG - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Not able to save posted variable information [call_classification]
+11/02/2019 17:37:04:856  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___sessionid to complex: session:sessionid  as [sess5613912]
+11/02/2019 17:37:04:857  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+11/02/2019 17:37:05:527  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : runtime_platform : Desktop
+11/02/2019 17:37:05:528  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : runtime_asr : Desktop Microsoft Speech SAPI
+11/02/2019 17:37:05:551 DEBUG - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Acquiring initial License
+11/02/2019 17:37:05:554  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Acquiring Desktop runtime license
+11/02/2019 17:37:05:556  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Runtime :true
+11/02/2019 17:37:05:559  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : IC :true
+11/02/2019 17:37:05:561  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : CTI :true
+11/02/2019 17:37:05:606 DEBUG - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Grace Period timer cleared
+11/02/2019 17:37:05:608 DEBUG - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : License refresh timer started
+11/02/2019 17:37:05:619  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : MessageType is speech
+11/02/2019 17:37:06:170  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : WelcomeAnnounce
+11/02/2019 17:37:06:176  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+11/02/2019 17:37:06:176  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+11/02/2019 17:37:06:177  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+11/02/2019 17:37:06:177  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+11/02/2019 17:37:06:178  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+11/02/2019 17:37:06:178  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___aai to complex: session:aai  as []
+11/02/2019 17:37:06:179  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___ani to complex: session:ani  as [undefined]
+11/02/2019 17:37:06:180  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___calltag to complex: session:calltag  as [unknown]
+11/02/2019 17:37:06:181  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___channel to complex: session:channel  as [0]
+11/02/2019 17:37:06:182  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+11/02/2019 17:37:06:183  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+11/02/2019 17:37:06:184  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___dnis to complex: session:dnis  as [undefined]
+11/02/2019 17:37:06:184  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+11/02/2019 17:37:06:184  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___protocolname to complex: session:protocolname  as [pots]
+11/02/2019 17:37:06:185  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+11/02/2019 17:37:06:185  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+11/02/2019 17:37:06:185  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+11/02/2019 17:37:06:186  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___ucid to complex: session:ucid  as [undefined]
+11/02/2019 17:37:06:186  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___uui to complex: session:uui  as [unknown]
+11/02/2019 17:37:06:187  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+11/02/2019 17:37:06:187  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+11/02/2019 17:37:06:187  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+11/02/2019 17:37:06:188  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+11/02/2019 17:37:06:188  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+11/02/2019 17:37:06:188  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videofps to complex: session:videofps  as [unknown]
+11/02/2019 17:37:06:188  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+11/02/2019 17:37:06:190  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+11/02/2019 17:37:06:190  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+11/02/2019 17:37:06:191  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+11/02/2019 17:37:06:192  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+11/02/2019 17:37:06:192  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+11/02/2019 17:37:06:192  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+11/02/2019 17:37:06:192  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+11/02/2019 17:37:06:193  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+11/02/2019 17:37:06:352  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : Record
+11/02/2019 17:37:14:871  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : RecordDataAssign
+11/02/2019 17:37:14:918  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :WelcomeRecord___size to complex: WelcomeRecord:size  as [62046]
+11/02/2019 17:37:14:918  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :WelcomeRecord___maxtime to complex: WelcomeRecord:maxtime  as [false]
+11/02/2019 17:37:14:919  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :WelcomeRecord___duration to complex: WelcomeRecord:duration  as [3877]
+11/02/2019 17:37:14:919  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Storing :WelcomeRecord___value to complex: WelcomeRecord:value  as [http://localhost:8080/voiceDemo/data/temp/file_undefined_4444747927114087167.wav]
+11/02/2019 17:37:14:983  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Assigning [WelcomeRecord:value] to [URL]
+11/02/2019 17:37:14:995  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : GoogleASR
+11/02/2019 17:37:16:794  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : CheckASRError
+11/02/2019 17:37:16:857  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : [condition1] Expression [ServerStatus] Numeric Equal [1]
+11/02/2019 17:37:16:860  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : NLPWS
+11/02/2019 17:37:37:944  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : CheckNLPWSError
+11/02/2019 17:37:37:999  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : [condition1] Expression [ServerStatus] String Equal Ignorecase [Error]
+11/02/2019 17:37:38:000  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : GoogleTTS
+11/02/2019 17:37:38:802  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : SetANNounceTTS
+11/02/2019 17:37:38:853  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : [condition1] Expression [OutGoogleTTS] String Equal Ignorecase [thank you]
+11/02/2019 17:37:38:854  INFO - 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo : Using SCESession 8F51CE16F8E0A08806B9BB6B9FA4F606:/voiceDemo servlet : PlayTTSAnnounce
+11/02/2019 17:38:37:311  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : SCESession bound to HttpSession 2D1F93F7BA3C6D5E9677040BB04BD468
+11/02/2019 17:38:37:312  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Browser Version 2.1.4, terminationURL enabled : true
+11/02/2019 17:38:37:316  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : Start
+11/02/2019 17:38:37:324  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : ** Pushed Stack Frame [/voiceDemo]
+11/02/2019 17:38:37:325 DEBUG - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Not able to save posted variable information [call_classification]
+11/02/2019 17:38:37:325  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___sessionid to complex: session:sessionid  as [sess9085443]
+11/02/2019 17:38:37:325  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+11/02/2019 17:38:37:929  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : runtime_platform : Desktop
+11/02/2019 17:38:37:931  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : runtime_asr : Desktop Microsoft Speech SAPI
+11/02/2019 17:38:37:936  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : MessageType is speech
+11/02/2019 17:38:37:961  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : WelcomeAnnounce
+11/02/2019 17:38:37:966  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+11/02/2019 17:38:37:966  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+11/02/2019 17:38:37:967  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+11/02/2019 17:38:37:967  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+11/02/2019 17:38:37:967  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+11/02/2019 17:38:37:968  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___aai to complex: session:aai  as []
+11/02/2019 17:38:37:968  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___ani to complex: session:ani  as [undefined]
+11/02/2019 17:38:37:969  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___calltag to complex: session:calltag  as [unknown]
+11/02/2019 17:38:37:969  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___channel to complex: session:channel  as [0]
+11/02/2019 17:38:37:969  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+11/02/2019 17:38:37:969  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+11/02/2019 17:38:37:970  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___dnis to complex: session:dnis  as [undefined]
+11/02/2019 17:38:37:971  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+11/02/2019 17:38:37:972  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___protocolname to complex: session:protocolname  as [pots]
+11/02/2019 17:38:37:972  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+11/02/2019 17:38:37:973  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+11/02/2019 17:38:37:973  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+11/02/2019 17:38:37:974  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___ucid to complex: session:ucid  as [undefined]
+11/02/2019 17:38:37:974  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___uui to complex: session:uui  as [unknown]
+11/02/2019 17:38:37:974  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+11/02/2019 17:38:37:975  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+11/02/2019 17:38:37:975  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+11/02/2019 17:38:37:976  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+11/02/2019 17:38:37:976  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+11/02/2019 17:38:37:976  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videofps to complex: session:videofps  as [unknown]
+11/02/2019 17:38:37:977  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+11/02/2019 17:38:37:977  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+11/02/2019 17:38:37:978  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+11/02/2019 17:38:37:978  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+11/02/2019 17:38:37:978  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+11/02/2019 17:38:37:979  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+11/02/2019 17:38:37:980  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+11/02/2019 17:38:37:980  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+11/02/2019 17:38:37:981  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+11/02/2019 17:38:38:041  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : Record
+11/02/2019 17:38:43:853  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : RecordDataAssign
+11/02/2019 17:38:43:874  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :WelcomeRecord___size to complex: WelcomeRecord:size  as [48046]
+11/02/2019 17:38:43:874  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :WelcomeRecord___maxtime to complex: WelcomeRecord:maxtime  as [false]
+11/02/2019 17:38:43:874  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :WelcomeRecord___duration to complex: WelcomeRecord:duration  as [3002]
+11/02/2019 17:38:43:875  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Storing :WelcomeRecord___value to complex: WelcomeRecord:value  as [http://localhost:8080/voiceDemo/data/temp/file_undefined_3676170493369899048.wav]
+11/02/2019 17:38:43:925  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Assigning [WelcomeRecord:value] to [URL]
+11/02/2019 17:38:43:926  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : GoogleASR
+11/02/2019 17:38:45:051  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : CheckASRError
+11/02/2019 17:38:45:104  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : [condition1] Expression [ServerStatus] Numeric Equal [1]
+11/02/2019 17:38:45:105  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : NLPWS
+11/02/2019 17:39:06:159  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : CheckNLPWSError
+11/02/2019 17:39:06:211  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : [condition1] Expression [ServerStatus] String Equal Ignorecase [Error]
+11/02/2019 17:39:06:211  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : GoogleTTS
+11/02/2019 17:39:07:084  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : SetANNounceTTS
+11/02/2019 17:39:07:143  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : [condition1] Expression [OutGoogleTTS] String Equal Ignorecase [thank you]
+11/02/2019 17:39:07:144  INFO - 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo : Using SCESession 2D1F93F7BA3C6D5E9677040BB04BD468:/voiceDemo servlet : PlayTTSAnnounce
+11/02/2019 17:41:18:415  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : SCESession bound to HttpSession 26E74503533ED567D3B6307544F34677
+11/02/2019 17:41:18:416  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Browser Version 2.1.4, terminationURL enabled : true
+11/02/2019 17:41:18:419  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : Start
+11/02/2019 17:41:18:426  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : ** Pushed Stack Frame [/voiceDemo]
+11/02/2019 17:41:18:426 DEBUG - 26E74503533ED567D3B6307544F34677:/voiceDemo : Not able to save posted variable information [call_classification]
+11/02/2019 17:41:18:427  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___sessionid to complex: session:sessionid  as [sess4407961]
+11/02/2019 17:41:18:427  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+11/02/2019 17:41:19:032  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : runtime_platform : Desktop
+11/02/2019 17:41:19:033  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : runtime_asr : Desktop Microsoft Speech SAPI
+11/02/2019 17:41:19:039  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : MessageType is speech
+11/02/2019 17:41:19:066  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : WelcomeAnnounce
+11/02/2019 17:41:19:070  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+11/02/2019 17:41:19:070  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+11/02/2019 17:41:19:071  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+11/02/2019 17:41:19:071  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+11/02/2019 17:41:19:071  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+11/02/2019 17:41:19:072  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___aai to complex: session:aai  as []
+11/02/2019 17:41:19:072  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___ani to complex: session:ani  as [undefined]
+11/02/2019 17:41:19:072  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___calltag to complex: session:calltag  as [unknown]
+11/02/2019 17:41:19:073  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___channel to complex: session:channel  as [0]
+11/02/2019 17:41:19:073  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+11/02/2019 17:41:19:074  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+11/02/2019 17:41:19:074  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___dnis to complex: session:dnis  as [undefined]
+11/02/2019 17:41:19:074  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+11/02/2019 17:41:19:074  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___protocolname to complex: session:protocolname  as [pots]
+11/02/2019 17:41:19:075  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___ucid to complex: session:ucid  as [undefined]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___uui to complex: session:uui  as [unknown]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+11/02/2019 17:41:19:076  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+11/02/2019 17:41:19:077  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+11/02/2019 17:41:19:077  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+11/02/2019 17:41:19:078  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+11/02/2019 17:41:19:078  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videofps to complex: session:videofps  as [unknown]
+11/02/2019 17:41:19:078  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+11/02/2019 17:41:19:078  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+11/02/2019 17:41:19:078  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+11/02/2019 17:41:19:079  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+11/02/2019 17:41:19:079  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+11/02/2019 17:41:19:080  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+11/02/2019 17:41:19:080  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+11/02/2019 17:41:19:080  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+11/02/2019 17:41:19:080  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+11/02/2019 17:41:19:147  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : Record
+11/02/2019 17:41:24:949  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : RecordDataAssign
+11/02/2019 17:41:24:989  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___size to complex: WelcomeRecord:size  as [50046]
+11/02/2019 17:41:24:989  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___maxtime to complex: WelcomeRecord:maxtime  as [false]
+11/02/2019 17:41:24:989  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___duration to complex: WelcomeRecord:duration  as [3127]
+11/02/2019 17:41:24:990  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___value to complex: WelcomeRecord:value  as [http://localhost:8080/voiceDemo/data/temp/file_undefined_6429019985204489904.wav]
+11/02/2019 17:41:25:043  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Assigning [WelcomeRecord:value] to [URL]
+11/02/2019 17:41:25:044  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleASR
+11/02/2019 17:41:26:225  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckASRError
+11/02/2019 17:41:26:278  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] Numeric Equal [1]
+11/02/2019 17:41:26:279  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : NLPWS
+11/02/2019 17:41:26:771  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckNLPWSError
+11/02/2019 17:41:26:824  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] String Equal Ignorecase [Error]
+11/02/2019 17:41:26:825  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleTTS
+11/02/2019 17:41:27:966  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : SetANNounceTTS
+11/02/2019 17:41:28:018  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [OutGoogleTTS] String Equal Ignorecase [thank you]
+11/02/2019 17:41:28:018  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : PlayTTSAnnounce
+11/02/2019 17:41:28:122  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : Record
+11/02/2019 17:41:37:597  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : RecordDataAssign
+11/02/2019 17:41:37:625  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___size to complex: WelcomeRecord:size  as [88046]
+11/02/2019 17:41:37:626  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___maxtime to complex: WelcomeRecord:maxtime  as [false]
+11/02/2019 17:41:37:626  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___duration to complex: WelcomeRecord:duration  as [5502]
+11/02/2019 17:41:37:626  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___value to complex: WelcomeRecord:value  as [http://localhost:8080/voiceDemo/data/temp/file_undefined_5898186475677641283.wav]
+11/02/2019 17:41:37:677  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Assigning [WelcomeRecord:value] to [URL]
+11/02/2019 17:41:37:677  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleASR
+11/02/2019 17:41:39:089  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckASRError
+11/02/2019 17:41:39:143  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] Numeric Equal [1]
+11/02/2019 17:41:39:144  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : NLPWS
+11/02/2019 17:41:42:724  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckNLPWSError
+11/02/2019 17:41:42:776  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] String Equal Ignorecase [Error]
+11/02/2019 17:41:42:776  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleTTS
+11/02/2019 17:41:43:877  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : SetANNounceTTS
+11/02/2019 17:41:43:929  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [OutGoogleTTS] String Equal Ignorecase [thank you]
+11/02/2019 17:41:43:930  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : PlayTTSAnnounce
+11/02/2019 17:41:44:000  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : Record
+11/02/2019 17:41:52:797  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : RecordDataAssign
+11/02/2019 17:41:52:823  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___size to complex: WelcomeRecord:size  as [56046]
+11/02/2019 17:41:52:823  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___maxtime to complex: WelcomeRecord:maxtime  as [false]
+11/02/2019 17:41:52:823  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___duration to complex: WelcomeRecord:duration  as [3502]
+11/02/2019 17:41:52:824  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Storing :WelcomeRecord___value to complex: WelcomeRecord:value  as [http://localhost:8080/voiceDemo/data/temp/file_undefined_6029390830941920131.wav]
+11/02/2019 17:41:52:875  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Assigning [WelcomeRecord:value] to [URL]
+11/02/2019 17:41:52:877  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleASR
+11/02/2019 17:41:53:956  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckASRError
+11/02/2019 17:41:54:009  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] Numeric Equal [1]
+11/02/2019 17:41:54:010  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : NLPWS
+11/02/2019 17:41:54:526  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : CheckNLPWSError
+11/02/2019 17:41:54:579  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [ServerStatus] String Equal Ignorecase [Error]
+11/02/2019 17:41:54:580  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : GoogleTTS
+11/02/2019 17:41:55:172  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : SetANNounceTTS
+11/02/2019 17:41:55:226  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : [condition1] Expression [OutGoogleTTS] String Equal Ignorecase [thank you]
+11/02/2019 17:41:55:226  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : PlayTTSAnnounce
+11/02/2019 17:41:55:434  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : Record
+11/02/2019 17:42:00:394  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Using SCESession 26E74503533ED567D3B6307544F34677:/voiceDemo servlet : AvayaDefaultDisconnectHandler
+11/02/2019 17:42:00:492  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Removing session from AvayaSessionTermination Servlet
+11/02/2019 17:42:00:494  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+11/02/2019 17:42:00:495  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : HTTP Session lost removing SCESession 26E74503533ED567D3B6307544F34677
+11/02/2019 17:42:00:495  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : SCESession Removed
+11/02/2019 17:42:00:498 DEBUG - 26E74503533ED567D3B6307544F34677:/voiceDemo : Removing 1 session stack frames.
+11/02/2019 17:42:00:499  INFO - 26E74503533ED567D3B6307544F34677:/voiceDemo : ** Popped Stack Frame [/voiceDemo]
